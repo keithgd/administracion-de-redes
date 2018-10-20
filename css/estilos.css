@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #7ab1e4;
+}
+#contenedor{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    position: relative;
+}
+#contenedor h1{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    overflow:hidden;
+}
+header{
+    background: #ffffff;
+    width: 1200px;
+    height: 100%;
+    border: 1px solid #000;
+}
+header img{
+    width: 1200px;
+}
+/*---------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------*/
+/*barra de navegracion*/
+.navegacion{
+	width: 1200px;
+	margin: auto;
+	background: #f4d03f;
+}
+
+.navegacion ul{
+    list-style: none;
+    
+}
+
+.menu > li {
+	position: relative;
+	display: inline-block;
+}
+.menu > li > a {
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+    transition: all .3s;
+}
+/*-----------------------------------------------------*/
+/* Submenu*/
+.submenu {
+	position: absolute;
+	background: #f4d03f;
+	width: 110%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a  {
+    display: inline-block;
+    padding: 0px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+    opacity: 1;
+    display: inline-block;
+}
+
+/*-------------------------------------------------------------------------
+---------------------------------------------------------------------------
+--------------------------------------------------------------------------*/
+
+/*texto*/
+section {
+    width: 33%;
+    float: left;
+    text-align: center;
+    /*border-style: solid;*/
+    height: 900%;
+}
+
+
+/*---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+*/
+
+footer{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #f4d03f;
+    clear: both;
+    text-align: center;
+}
+
+
+
+
+
+

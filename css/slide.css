@@ -1,0 +1,30 @@
+
+img{
+    width: 700px;
+    
+}
+.contenedor{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.contenedor ul{
+    list-style: none;
+    width: 400%;
+    padding: 0;
+    display: flex;
+    animation: movimiento 20s infinite alternate;
+}
+@keyframes movimiento {
+    0% {margin-left: 0px;}
+    20% {margin-left: 0px;}
+
+    25% {margin-left: -700px;}
+    45% {margin-left: -700px;}
+
+    50% {margin-left: -1400px;}
+    75% {margin-left: -1400px;}
+
+}
