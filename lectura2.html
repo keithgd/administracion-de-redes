@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="AUTOR" content="keith rafael guardiola diaz">
+    <meta name="GRUPO" content="301122">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ADMINISTRACION DE REDES</title>
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <img src="img/1.png">
+            <h1>ADMINISTRACIÓN DE REDES</h1>
+        </header>
+
+        <NAv class="navegacion">
+                <Ul class="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">LECTURA</a>
+                        <Ul class="submenu"> 
+                            <li><a href="lectura1.html">LECTURA1 </a></li>
+                            <li><a href="lectura2.html">LECTURA2</a></li>
+                            <li><a href="lectura3.html">LECTURA3</a></li>
+                            <li><a href="lectura4.html">LECTURA4</a></li>
+                            <li><a href="lectura5.html">LECTURA5</a></li>
+                        </Ul>
+                    </li>
+                    <li><a href="#">MULTIMEDIA</a>
+                        <ul class="submenu">
+                                <li><a href="#">MULTIMEDIA1</a></li>
+                                <li><a href="#">MULTIMEDIA2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ACTIVIDADES</a>
+                        <ul class="submenu">
+                                <li><a href="#">ACTIVIDADES 1</a></li>
+                                <li><a href="#">ACTIVIDADES 2</a></li>
+                                <li><a href="#">ACTIVIDADES 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">AUTORES</a>
+                        </ul>
+            </NAv>
+            <article>
+                <h3>Administración de fallas</h3>
+                <p>
+                    El objetivo de la administración de fallas es detectar, registrar, notifica a los usuarios de, y (en la medida de lo posible) repare automáticamente los problemas de red para guardar la red el ejecutarse con eficacia.
+                    Puesto que las fallas pueden causar tiempo de inactividad o degradación de la red inaceptable, la administración de las fallas es quizá uno de los elementos más implementados de la administración de redes ISO.
+                </p>
+
+                <h6>Plataformas de administración de redes</h6>
+                <p>
+                    Una plataforma de administración de redes desplegada en la empresa maneja una infraestructura que consista en los elementos de red de vendedores múltiples.
+                     La plataforma recibe y los eventos de procesos de los elementos de redes en la red. 
+                     Los eventos de los servidores y de otros recursos importantes también pueden ser reenviados a una plataforma de administración. 
+                    Las funciones comúnmente disponibles siguientes se incluyen en una plataforma de administración estándar
+                </p>
+                <figure>
+                    <img src="img/in7.jpg">
+                </figure>
+                <p>
+                    <li class="viñeta">Detección de red</li>
+                    <li class="viñeta">Asignación de topología de los elementos de red</li>
+                    <li class="viñeta">Administrador de evento</li>
+                    <li class="viñeta">Recolector y graficador de datos de rendimiento</li>
+                    <li class="viñeta">Explorador de datos de administración</li>
+                </p>
+                <p>
+                    Las plataformas de administración de red pueden verse como la consola principal para las operaciones de red en la detección de fallas en la infraestructura.
+                    La capacidad de detectar los problemas en cualquier red es rápidamente crítica. 
+                    El personal de operaciones de redes puede basarse en un mapa gráfico de la red para visualizar los estados operativos de elementos críticos de la red, tales como routers y switches.
+                    Las plataformas de gestión de redes, como HP OpenView, Computer Associates Unicenter y SUN Solstice, pueden llevar a cabo una búsqueda de dispositivos de red.
+                    Cada dispositivo de red está representado por un elemento gráfico en la consola de la plataforma de administración.
+                    Los diferentes colores en los elementos gráficos representan el estado de funcionamiento actual de los dispositivos de red.
+                    Los dispositivos de red se pueden configurar para enviar las notificaciones, llamadas SNMP traps, a las plataformas de administración de redes.
+                    Luego de recibir las notificaciones, el elemento gráfico que representa el dispositivo de red cambia de color en función de la gravedad de la notificación recibida.
+                    La notificación, normalmente denominada un evento, es colocada en un archivo de registro. Es particularmente importante que la mayoría de los archivos de Base de información para administración (MIB) de Cisco se carguen en la plataforma SNMP para garantizar que las distintas alertas de los dispositivos de Cisco se interpreten correctamente.
+                </p>
+                <figure>
+                    <img src="img/in8.jpg">
+                </figure>
+                <h6>Infraestructura de solución de problemas</h6>
+                <p>
+                    El Trivial File Transfer Protocol (TFTP) y los servidores del registro del sistema (Syslog) son componentes fundamentales de una infraestructura del troubleshooting en las operaciones de la red. El servidor TFTP se utiliza, fundamentalmente, para almacenar archivos de configuración e imágenes de software correspondientes a dispositivos de red. 
+                    Los routers y los switches son capaces de enviar mensajes de registro de sistema a un servidor syslog. 
+                    Los mensajes facilitan la función de resolución de problemas cuando éstos se detectan. 
+                    De vez en cuando, el personal de soporte de Cisco necesita los mensajes de Syslog realizar la Análisis de la causa de raíz.
+                    La función de recolección de syslog distribuida de CiscoWorks2000 Resource Management Essentials (Essentials) permite el despliegue de varias estaciones de recolección UNIX o NT en sitios remotos para recolectar y filtrar mensajes.
+                    Los filtros pueden especificar cuáles serán los mensajes syslog que serán reenviados al servidor principal Essentials.
+                    Un beneficio mayor de implementar la recolección distribuida es la reducción de mensajes remitida a los servidores de Syslog principales.
+                </p>
+            </article>
+
+
+        
+        <footer >
+        <p>Curso de Diseño Web, Universidad Nacional Abierta y a Distancia UNAD.</p>
+        <p>octubre 2018.</p> 
+        </footer>
+     </div>
+</body>
+</html>
