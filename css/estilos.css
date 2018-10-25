@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    background: #022DB5;
+    background: #005883;
 }
+
 #contenedor{
     width: 1200px;
     margin: auto;
@@ -35,7 +37,7 @@ header img{
 .navegacion{
 	width: 1200px;
 	margin: auto;
-    background: #f4d03f;
+    background: #f0b429;
     text-align: center;
 }
 
@@ -64,7 +66,7 @@ header img{
 /* Submenu*/
 .submenu {
 	position: absolute;
-	background: #f4d03f;
+	background: #f0b429;
     width: 110%;
     padding: 10px;
 	visibility: hidden;
@@ -91,12 +93,13 @@ header img{
 --------------------------------------------------------------------------*/
 
 /*texto*/
+
 section {
     width: 33%;
     float: left;
     text-align: center;
-    /*border-style: solid;*/
-    height: 900%;
+    height: auto;
+    fi
 }
 
 
@@ -104,16 +107,6 @@ section {
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 */
-
-footer{
-    height: 180px;
-	background: #f4d03f;
-	color: #fff;
-	clear: both;
-    position: relative;
-    padding: 10px;
-}
-
 
 h1{
     margin-top: 35px;
@@ -131,6 +124,7 @@ h2{
     text-align: center;
     color: white;
     margin-top: 15px;
+    margin: auto;
 }
 h3{
     margin-top: 15px;
@@ -185,4 +179,13 @@ h4{
     display: block;
     margin: auto;
     padding: 30px;
+}
+
+footer{
+    background: #f0b429;
+    clear: both;
+    width: 1200px;
+    height: 90px;
+    padding: 10px;
+    top: 710px;
 }
